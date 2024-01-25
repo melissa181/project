@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eddcd2;
+
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+nav {
+    margin: 20px;
+    margin-left: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    font-size: small;
+    word-spacing: 14px;
+    margin: 0;
+    font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    align-items: center;
+    justify-content: center;
+    margin: 0 -1px 0 -9px ;
+    width: 130px;
+    height: 46px;
+}
+
+h1 {
+    margin: 1.2em 7px -0.6em 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.waterloo img {
+    width: 18em;
+    height: 6em;
+    object-fit: fill;
+    background-size: cover;
+    margin: 0 3em 1em 2.5em;
+}
+
+.imageone img {
+    max-width: 100%;
+    width: 25em;
+    height: 20em;
+    object-fit: fill;
+}
+
+h2 {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+    font-weight: 800;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+
+}
+
+.redpart {
+    background-color: #78473c;
+    margin: 2em 0 0 0;
+    height: 51em;
+}
+
+.redpart h3 {
+    margin: 1em 0 0 0;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.redpart p {
+    margin: 0 1em 0 1em;
+    text-align: center;
+    font-family: "Imprint MT Shadow";
+    color: white;
+}
+
+.orangeyellow img {
+    margin: 3.5em 1em 1em 1.5em;
+    max-width: 100%;
+    width: 21em;
+    height: 29em;
+}
+
+footer{
+    background-color: #414042;
+    height: 11em;
+}
+
+footer img{
+margin: 3em 0 0 0.4em;
+    max-width: fit-content;
+    width: 23em;
+    height: 5em;
+}
+
+.weighpay img {
+    margin: 4.5em 1.2em 0 1.3em;
+    max-width: 100%;
+    width: 21em;
+    height: 20em;
+}
+
+.redpartscale {
+    background-color: #78473c;
+    height: 40.5em;
+}
+
+.redpartscale h2 {
+    margin: 1em 0 0 0;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+    font-weight: 800;
+    font-size: xx-large;
+
+}
+
+.redpartscale img {
+    margin: 1.8em 1.2em 3em 1.3em;
+    max-width: 100%;
+    width: 21em;
+    height: 19em;
+}
+
+.article h3 {
+    margin-top: 0.1em;
+    height: 80px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.article p {
+    margin: 0 1em 2.5em 1em;
+    text-align: center;
+    font-family: "Imprint MT Shadow";
+    font-weight: 350;
+    color: black;
+}
+
+.weighexport img {
+    margin: 4em 1.2em 0 1.3em;
+    max-width: 100%;
+    width: 21em;
+    height: 25em;
+}
+
+.button img{
+    width: 4em;
+    height: 4em;
+    margin: 1.5em 1em 2em 2em;
+   
+}    
+
+.textcolorblack p {
+    font-size: larger;
+  margin: 2.4em 0 0 1.5em;
+  font-weight: 700;
+    font-family: "Imprint MT Shadow";
+    color: black;
+}
+
+.textcolorwhite p {
+    font-size: larger;
+    margin: 2.4em 0 0 1.5em;
+  font-weight: 700;
+     font-family: "Imprint MT Shadow"; 
+     color: white;
+}
+
+.red {
+    display: flex;
+    flex-direction: row;
+}
+
+.green {
+    display: flex;
+    flex-direction: row;
+    background-color: #78473c;
+    height: 8em; 
+}
+
+.yellow {
+    display: flex;
+    flex-direction: row;
+}
+
+.blue {
+    display: flex;
+    flex-direction: row;
+    background-color: #78473c;
+    height: 8em;  
+}
+
+.orange {
+    display: flex;
+    flex-direction: row;
+}
+
+.white {
+    display: flex;
+    flex-direction: row;
+    background-color: #78473c;
+    height: 8em; 
+}
+
+.intro img {
+    width: 18em;
+    height: 6em;
+    object-fit: fill;
+    background-size: cover;
+    margin: 0 3em 1em 2.5em;  
+}
+
+.seventies {
+    display: flex;
+    flex-direction: row;
+}
+
+.seventies img {
+    margin: 1em 0.8em 0 0;
+    max-width: 100%;
+    width: 47em;
+    height: 16em;
+}
+
+.seventies p {
+    margin: 2em 1.5em 0 1em;
+    font-family: "Imprint MT Shadow"; 
+    text-align: center;
+    font-size: smaller;
+}
+
+.countrystyle {
+    margin: 2em 0 0 0;
+    background-color: #78473c;
+    height: 30em;
+}
+
+.countryflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.countryflex img {
+    margin:  1.8em 0 0 0.8em;
+    max-width: 100%;
+    width: 45em;
+    height: 15em;
+}
+
+.countryflex p {
+    margin: 4em 1.5em 0 1.5em;
+    font-family: "Imprint MT Shadow"; 
+    text-align: center;
+    font-size: smaller;
+    color: white;
+}
+
+.winterfashion {
+    display: flex;
+    flex-direction: row;
+}
+
+.winterfashion img {
+    margin: 1em 0.8em 0 0;
+    max-width: 100%;
+    width: 45em;
+    height: 15em;
+}
+.winterfashion p {
+    margin: 5em 1.5em 0 1em;
+    font-family: "Imprint MT Shadow"; 
+    text-align: center;
+    font-size: smaller;
+}
+
+.leather {
+    margin: 2em 0 0 0;
+    background-color: #78473c;
+    height: 28.3em;
+}
+
+.twentyone {
+    display: flex;
+    flex-direction: row;
+}
+
+.twentytwo {
+    display: flex;
+    flex-direction: row;
+}
+
+.twentyone img {
+    margin: 2em 0 0 1em ;
+    max-width: 100%;
+    width: 30em;
+    height: 12em;
+}
+
+.twentytwo img {
+    margin: 4em 1em 3em 0;
+    max-width: 100%;
+    width: 30em;
+    height: 12em;
+}
+
+.twentyone p {
+    font-size: medium;
+    margin: 3em 1.5em 2.5em 1.5em;
+    text-align: center;
+    font-family: "Imprint MT Shadow";
+    color: white;
+}
+
+.twentytwo p {
+    font-size: medium;
+    margin: 2.7em 1.5em 2.5em 1.5em;
+    text-align: center;
+    font-family: "Imprint MT Shadow";
+    color: white;
+}
+
+/**scroll image bar from https://www.w3schools.com/howto/default.asp**/
+.scrollcontainer {
+    background-color:  #eddcd2 ;
+    overflow: auto;
+    white-space: nowrap;
+}
